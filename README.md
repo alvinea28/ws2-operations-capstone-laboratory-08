@@ -1,6 +1,6 @@
 # Laboratory 08 · Operations, recovery and compatible upgrade
 
-**Repository:** [alvinea28/ws2-operations-capstone-laboratory-08](https://github.com/alvinea28/ws2-operations-capstone-laboratory-08) · **Recommended order:** 08 of 08 · **Time:** 60–90 minutes
+**Public source template (not the clone URL after copying):** [alvinea28/ws2-operations-capstone-laboratory-08](https://github.com/alvinea28/ws2-operations-capstone-laboratory-08) · **Recommended order:** 08 of 08 · **Time:** 60–90 minutes
 
 > [!NOTE]
 > **This laboratory is independent.** No earlier repository or Azure deployment required. The incident is sanitized and the complete module is supplied. Any later live follow-up belongs to one instructor-designated delivery copy, not to this lab.

@@ -8,7 +8,7 @@
   ],
   "duration": "60–90 minutes",
   "description": "No earlier repository or Azure deployment required. The incident is sanitized and the complete module is supplied. Any later live follow-up belongs to one instructor-designated delivery copy, not to this lab.",
-  "completion": "Offline diagnosis, compatible code and handover checks are complete, not the workshop's live capstone. Return to your existing Lab 7 delivery copy for the reviewed v1.1.0 exact pin, real deployment, fresh no-change and independently approved cleanup; do not create a second state writer. Every laboratory is independent; the catalogue order is a learning recommendation, not a requirement to create or finish another repository.",
+  "completion": "Your independent offline diagnosis, recovery, compatible code and handover checks are complete. No Lab 7 copy or live deployment is required to finish this course. If an instructor later requests live follow-up, use one designated private Lab 7 writer for the genuinely reviewed v1.1.0 exact pin, fresh approved deployment, no-change and scoped cleanup; never create a second state writer or claim those future actions are complete. Every laboratory is independent; the catalogue order is a learning recommendation, not a requirement to create or finish another repository.",
   "steps": [
     {
       "id": "1",
