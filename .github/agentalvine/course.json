@@ -1,0 +1,131 @@
+{
+  "id": "08-operations-capstone",
+  "title": "Laboratory 08 · Operations, recovery and compatible upgrade",
+  "number": 8,
+  "topics": [
+    "D2.6",
+    "D2.7 offline diagnosis, upgrade and handover"
+  ],
+  "duration": "60–90 minutes",
+  "description": "No earlier repository or Azure deployment required. The incident is sanitized and the complete module is supplied. Any later live follow-up belongs to one instructor-designated delivery copy, not to this lab.",
+  "completion": "Offline diagnosis, compatible code and handover checks are complete, not the workshop's live capstone. Return to your existing Lab 7 delivery copy for the reviewed v1.1.0 exact pin, real deployment, fresh no-change and independently approved cleanup; do not create a second state writer. Every laboratory is independent; the catalogue order is a learning recommendation, not a requirement to create or finish another repository.",
+  "steps": [
+    {
+      "id": "1",
+      "title": "Diagnose the sanitized OIDC incident",
+      "lesson": ".github/steps/01.md",
+      "requiresCommit": true,
+      "checks": [
+        {
+          "kind": "json",
+          "path": "incidents/selected.json",
+          "equals": {
+            "cause": "subject-mismatch",
+            "fix": "match-exact-subject"
+          },
+          "nonempty": [
+            "cause",
+            "fix"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Write a safe recovery decision",
+      "lesson": ".github/steps/02.md",
+      "requiresCommit": true,
+      "checks": [
+        {
+          "kind": "file",
+          "path": "runbook.md",
+          "contains": [
+            "Never force-unlock an active run",
+            "reviewed correction"
+          ],
+          "notContains": [
+            "TODO"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Add app without breaking the existing outputs",
+      "lesson": ".github/steps/03.md",
+      "requiresCommit": true,
+      "checks": [
+        {
+          "kind": "file",
+          "path": "module/outputs.tf",
+          "contains": [
+            "output \"vnet_id\"",
+            "output \"subnet_ids\"",
+            "output \"nsg_id\"",
+            "output \"association_ids\"",
+            "output \"subnet_address_prefixes\"",
+            "azurerm_subnet.this",
+            "subnet.address_prefixes"
+          ],
+          "notContains": [
+            "TODO"
+          ]
+        },
+        {
+          "kind": "file",
+          "path": "examples/dev.tfvars.example",
+          "contains": [
+            "web",
+            "data",
+            "10.42.1.0/24",
+            "10.42.2.0/24",
+            "10.42.3.0/24"
+          ],
+          "pattern": "app\\s*=\\s*\\{\\s*address_prefixes\\s*=\\s*\\[\\s*\"10\\.42\\.3\\.0/24\"\\s*\\]\\s*\\}",
+          "notContains": [
+            "TODO"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Pass compatibility checks and hand back to live delivery",
+      "lesson": ".github/steps/04.md",
+      "requiresCommit": true,
+      "checks": [
+        {
+          "kind": "file",
+          "path": "exercise/handover.md",
+          "caseInsensitive": true,
+          "contains": [
+            "v1.1.0",
+            "exact pin",
+            "retained resources",
+            "Lab 7",
+            "deploy",
+            "followup",
+            "destroy",
+            "offline"
+          ],
+          "notContains": [
+            "TODO"
+          ]
+        },
+        {
+          "kind": "workflow",
+          "file": "lab-checks.yml",
+          "jobs": [
+            "Test learner module"
+          ],
+          "conclusion": "success"
+        }
+      ]
+    }
+  ],
+  "beginnerSetup": true,
+  "sourceRepository": "alvinea28/ws2-operations-capstone-laboratory-08",
+  "sourceBranch": "dev",
+  "independent": true,
+  "prerequisiteLabs": []
+}

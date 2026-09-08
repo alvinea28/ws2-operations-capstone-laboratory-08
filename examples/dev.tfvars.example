@@ -1,0 +1,10 @@
+name                = "ws2-network"
+resource_group_name = "rg-ws2-existing"
+location            = "southeastasia"
+address_space       = ["10.42.0.0/16"]
+subnets = {
+  web  = { address_prefixes = ["10.42.1.0/24"] }
+  data = { address_prefixes = ["10.42.2.0/24"] }
+  # Add app = { address_prefixes = ["10.42.3.0/24"] } in the capstone.
+}
+tags = { owner = "team", environment = "dev", cost_center = "training", workshop = "ws2" }

@@ -1,0 +1,5 @@
+SANITIZED TRAINING FIXTURE — no token, state or real tenant identifiers.
+Stage: OIDC sign-in for dev-plan, before Terraform backend initialization.
+Error: AADSTS700213: No matching federated identity record found for presented assertion subject.
+Expected mapping used a name-only repo subject; this new repository uses immutable owner/repository IDs.
+Question: correct the exact trust mapping, or grant broader subscription access?
