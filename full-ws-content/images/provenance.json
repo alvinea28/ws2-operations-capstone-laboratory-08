@@ -1,0 +1,22 @@
+{
+  "capturedOn": "2026-09-14",
+  "exercisePreview": {
+    "kind": "Actual anonymous GitHub Exercise Preview viewport; zero participant progress",
+    "private": false,
+    "url": "https://github.com/alvinea28/ws2-operations-capstone-laboratory-08/issues/1",
+    "previewRun": "https://github.com/alvinea28/ws2-operations-capstone-laboratory-08/actions/runs/34879115962",
+    "capturedAt": "2026-09-14T19:07:29.337Z",
+    "sha256": "0ecdeb0961cf0f4e95a7a76e1aba7a148d4460d625f59f8a79942841aa759031"
+  },
+  "localValidation": {
+    "kind": "New local output-viewer capture of actual fresh commands; not terminal UI or a participant cycle",
+    "private": false,
+    "codeBaseRevision": "b5d835b4e36153273b125bfb1d6fe3fb3a3d3ee9",
+    "controlledFilesSha256": "35f7eaf61afdf931f543bf66670625b0e1032bb4ea119851330eaf8690d216ac",
+    "nodePasses": 35,
+    "solvedLabPassed": true,
+    "capturedAt": "2026-09-14T19:07:29.698Z",
+    "sha256": "70d02575e1adabc141136de28db1b9f3fbba9c0710a964d695ccf30fb758bf93"
+  },
+  "historicalSimulation": "Original private A/B records remain in the private evidence repository; no original-day per-step screenshots exist."
+}

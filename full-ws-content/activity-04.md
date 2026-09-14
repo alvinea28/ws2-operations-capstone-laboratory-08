@@ -1,0 +1,137 @@
+# Lab 08 · Activity 04 — Pass compatibility checks and hand back to live delivery
+
+[Review index](README.md) · [Previous activity](activity-03.md) · [Setup](00-start-here.md) · [Simulation evidence](simulation.md)
+
+> [!NOTE]
+> **Review copy, not a second progress tracker.** The complete canonical lesson follows. Learners follow the live **Exercise issue in their own private copy**, opened from that copy's README; AgentAlvine updates the same issue body. The public source preview awards no learner progress. Lab 08 completes offline; optional later release/live work is a separate outcome.
+
+<!-- FULL-WS-LESSON:START -->
+# Lab 08 · Step 4 — Finish offline and hand over optional live work honestly
+
+| Before you start | This step |
+| --- | --- |
+| Goal | Complete this independent offline course and describe a safe future live handover |
+| Start / working branch | Continue `lab/capstone` in your own private Lab 08 copy |
+| Edit | [exercise/handover.md](../exercise/handover.md) only |
+| Required phrases | `v1.1.0`, `exact pin`, `retained resources`, `Lab 7`, `deploy`, `followup`, `destroy`, `offline` |
+| Completion check | **Lab checks** → **Test learner module** at the newest pushed SHA |
+| Toolchain | Node **24.16.0**, Terraform **1.16.1**, AzureRM **5.4.0**; full mocked checker, including the actual example |
+| Not an offline prerequisite | A Lab 07 copy, real module release, Azure access, or live deployment/cleanup |
+
+> [!IMPORTANT]
+> **Offline course completion and live workshop follow-up are different outcomes.** This lab can finish without any earlier repository. The future reviewed release, exact consumer pin, and real cloud cycle stay pending until actually performed. Never mark them complete merely because a handover names them.
+
+## 1. Choose an honest handover destination
+
+1. If the instructor already designated **one private Lab 07 writer copy** for your team, identify that existing copy with them. Do not create a second state writer.
+2. If you never took Lab 07 or have no designated writer, write **writer pending instructor designation**. Ask the instructor to name the approved writer if live follow-up is later requested.
+3. Do **not** ask a beginner to create or finish an earlier repository just to pass this offline lab.
+4. The [public Lab 07 template](https://github.com/alvinea28/ws2-azure-delivery-laboratory-07) is only a reference/entry point, not an automatic link to your writer and never a live target. It always remains inert.
+5. Agree that this Lab 08 copy receives no cloud secrets, identity, remote backend, delivery workflow, or state-writing responsibility.
+
+## 2. Write the handover note
+
+1. In VS Code, confirm this Lab 08 clone and `lab/capstone` in the status bar.
+2. Press **Ctrl+P**, enter `exercise/handover.md`, and open the requested note.
+3. If it is missing, use **Explorer** → **New File** at this clone's root and enter the exact same path.
+4. Remove every `TODO`. Adapt the following Markdown, keeping live work explicitly pending unless genuine human and run evidence exists:
+
+```markdown
+# Offline capstone handover
+
+## Current scope
+This Lab 8 copy contains offline diagnosis, a safe recovery runbook, and an
+additive app-subnet candidate. Offline completion requires current learner CI.
+The four original outputs and stable web/data keys remain compatible.
+
+## Optional live follow-up — pending, not a prerequisite for offline completion
+- v1.1.0: publish a real final release from one chosen, genuinely reviewed module revision.
+- exact pin: resolve its full commit and use it in one instructor-designated Lab 7 writer.
+- Update the approved dependency snapshot/lock, caller outputs, and assigned app input together.
+- deploy: new protected-main run, fresh encrypted plan, and independent approval.
+- followup: separate new run proving no-change for that deployed revision.
+- destroy: separate newly reviewed cleanup run for that workload only.
+- retained resources: existing RG, backend account/container, identities, runner,
+  and shared infrastructure remain under their confirmed instructor/team owners.
+
+Writer: pending instructor designation unless an existing approved copy is identified.
+Release, exact pin, live runs, and retained-resource inventory remain pending
+until actually verified. This offline copy is never a second state writer.
+```
+
+5. If a writer is already designated, replace the pending sentence with its actual identity and confirmed owner in the private handover, using the approved channel. Do not substitute the public template URL as “our writer.”
+6. Identify retained-resource owners only when confirmed; otherwise mark ownership confirmation pending. Do not guess IDs, actual live CIDRs, or completed actions.
+7. Press **Ctrl+S**. The required prose matching is case-insensitive here, but correct content and honest status still matter.
+
+## 3. Understand the optional future release and consumer review
+
+These are **future responsibilities**, not commands to execute in this offline step:
+
+1. Choose a single module source with the instructor: this copy's complete module or another explicitly designated module copy. Another repository is not required for the offline course.
+2. Submit the actual additive code and compatibility results through that source's normal PR process. Obtain a genuine nonauthor review of the final head, resolve feedback, merge through protection, and verify current CI.
+3. Publish a real final **v1.1.0** at the reviewed commit and resolve the tag to the full 40-character commit. Do not fake approval, invent a tag/SHA, or move a published release.
+4. In the chosen private **Lab 7** writer, review the consumer's **exact pin**, matching dependency lock and verified snapshot, caller outputs, and instructor-approved `app` input together.
+5. Use that writer's instructor-approved snapshot/publication procedure; never hand-edit digests, bypass provenance, or expose private-module transport credentials to learner PR code.
+6. If the module source is this copy, its subdirectory is `//module`. Do not point the consumer at the repository root, a branch, or a movable release-name pin.
+7. Have the instructor approve actual private-module access and live ranges. The synthetic `10.42.3.0/24` example is not a sandbox assignment.
+
+## 4. Keep all live gates in that one private writer
+
+The instructor must confirm protected current `main`, a merged reviewed PR association, separate Reader/Contributor workload identities, container-scoped state lease permissions, private backend access, state-specific concurrency, and a restricted allowed-workflow runner.
+The `dev-plan` and `dev-apply` environments allow only `main`; real independent `dev-apply` reviewers cannot be the initiator or deployed code author, self-review is prevented, and administrator bypass is disabled.
+The instructor verifies these through the chosen writer's **Settings** → **Environments** and documented preflight, not by accepting a learner note as proof. Learners must not change those settings to pass.
+
+![GitHub reference highlighting the repository Settings tab](../docs/images/github-settings.webp)
+
+*REFERENCE — GitHub publisher example, CC BY 4.0. Its owner/repository and private badge are examples, not your approved writer or verified protections. [Sources and attribution](../docs/images/NOTICE.md).*
+
+After the reviewed upgrade is merged, live follow-up uses that writer's **Actions** → **Trusted dev delivery (instructor enablement required)** → **Run workflow**, branch **main**.
+Each of `deploy`, `followup`, and `destroy` must be a **new run**, not **Re-run jobs**, at the applicable revision after the preceding checkpoint.
+Deploy and destroy each need a fresh encrypted plan and their own independent review; plans expire after **2 hours** and encrypted artifacts retain for **1 day**.
+Real **Trusted dev plan**, **Apply reviewed dev plan**, **Confirm no-change**, and **Destroy reviewed dev plan** job success is required for the corresponding live stages; fixtures, skipped jobs, and an older baseline cycle cannot substitute.
+Any missing precondition means halt and record the live blocker. No local real initialization, state pull, identity creation, apply/destroy, or Copilot cloud tools are allowed as a workaround.
+
+## 5. Run the complete offline checker and publish the note
+
+1. Select **Terminal** → **New Terminal**, verify this clone's root, and run:
+
+```powershell
+node scripts/check-learner.mjs
+```
+
+2. Confirm the helper finishes successfully after **46** full-suite mocked cases and the separate **1** actual-example case. The first success line alone is not the full result; failed, errored, skipped, or zero tests do not pass.
+3. Open **Source Control** → the handover note's diff. Confirm it states only observed results and pending future work.
+4. Select **+**, inspect **Staged Changes**, enter `lab: hand over offline capstone safely`, and select **Commit**.
+5. Select **...** → **Push**, or **Publish Branch** to the existing own-copy `origin` if the branch was never published. Never force-push or publish a second repository.
+6. Refresh GitHub **Code**, choose `lab/capstone`, and open the newest commit to compare the handover and SHA.
+7. Select **Actions** → **Lab checks** → the run at that exact SHA → **Test learner module**. Inspect its actual full-helper execution and successful conclusion.
+8. If a correction is needed, use **Ctrl+P** for the named file, edit → **Ctrl+S** → diff → **+** → **Commit** → **Push**, then inspect the new SHA's run.
+9. Refresh the existing **Exercise** issue body after current CI finishes. No merge or external repository is required by this offline completion gate.
+
+## Expected result and precise gate
+
+The handover contains all eight required terms, with no `TODO`; case-insensitive prose is accepted for this Markdown note only.
+AgentAlvine requires the actual **Lab checks** workflow and **Test learner module** job to succeed at the latest observed SHA after course start.
+Only then may this copy's offline diagnosis, recovery, additive code, and handover checks be described as complete.
+No manual check command, run-ID submission, evidence PR, or edited progress checkbox is needed.
+This does not claim a real `v1.1.0` release, pin update, independent live approval, deployment, no-change, or cleanup. Optional live workshop completion stays pending until all of those are actually verified in the chosen writer.
+
+## Stuck?
+
+- No Lab 07 copy or reviewer yet: finish the offline handover with future work pending; ask the instructor about a writer only if live follow-up is requested.
+- Current CI red: inspect **Test learner module** at the newest SHA; preserve original outputs, rejection cases, mocks, and the actual example test.
+- AgentAlvine still pending: check the required note terms and newest eligible job, then refresh the issue; never manufacture evidence.
+- Uncertain status: use “pending” or “blocked” rather than implying that a template link or successful mock run is an approved live environment.
+
+**Full beginner help:** [start-here.md](../docs/start-here.md) · [git-workflow.md](../docs/git-workflow.md) · [copilot-guide.md](../docs/copilot-guide.md) · [toolchain.md](../docs/toolchain.md) · [troubleshooting.md](../docs/troubleshooting.md).
+<!-- FULL-WS-LESSON:END -->
+
+## Original Cycle A/B outcome — 2026-09-08
+
+- **Cycle A: verified offline; 4/4 complete.** The handover and actual current-revision learner CI completed the independent offline course.
+- **Cycle B: verified offline; 4/4 complete.** The fresh private copy independently completed diagnosis, recovery, compatible code, and handover without an earlier repository or Azure deployment.
+- Optional later genuine reviewed `v1.1.0` release, exact pin, designated Lab 07 writer, `deploy`, `followup`, `destroy`, and retained-resource confirmation remained **pending**. They were **not required to complete Lab 08** and were not fabricated.
+
+See [simulation.md](simulation.md) for the original proof and whole-lab totals, separate from new review captures.
+
+[Previous activity](activity-03.md) · [Review index](README.md)

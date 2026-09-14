@@ -30,6 +30,12 @@
 Select the intended Owner, keep **Private**, leave **Include all branches** off, and create the copy. Its own AgentAlvine issue will appear automatically.
 <!-- AGENTALVINE:END -->
 
+## Full workshop review
+
+[Complete setup, all activities and simulation evidence](full-ws-content/README.md) · [Public source Exercise #1 — read-only instructor Preview](https://github.com/alvinea28/ws2-operations-capstone-laboratory-08/issues/1).
+
+The source preview stays at zero learner progress. Learners use the **Exercise link in their own private copy's README**; AgentAlvine validates real work and updates that same issue body, not a separate ticket per activity. Lab 08 completes offline; optional later release/live work stays separate.
+
 ## What is included and what remains external
 
 - This copy has its own instructions, exercises, reference code and tests. The catalogue sequence builds concepts; there is no required earlier repository.
