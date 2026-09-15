@@ -6,7 +6,7 @@
     {
       "id": "README.md",
       "kind": "guide",
-      "summary": "Numbered laboratory content and guarded automatic validation."
+      "summary": "Concise standalone offline capstone entry separates original recovery/upgrade activities from the isolated Monitor and AVM Logic Apps companion."
     },
     {
       "id": ".github/agentalvine/course.json",
@@ -16,7 +16,7 @@
     {
       "id": ".github/agentalvine/auto-guide.cjs",
       "kind": "module",
-      "summary": "Numbered laboratory content and guarded automatic validation."
+      "summary": "Trusted AgentAlvine runtime changes only PR feedback to match reviewed mode while retaining existing gate evaluation and live boundaries."
     },
     {
       "id": ".github/agentalvine/auto-guide.test.cjs",
@@ -51,12 +51,12 @@
     {
       "id": "docs/start-here.md",
       "kind": "guide",
-      "summary": "Standalone illustrated first-time-user guidance or image provenance."
+      "summary": "Concise independent install/account/copy/clone/open guidance retains explained commands, references, expected results and recovery."
     },
     {
       "id": "docs/git-workflow.md",
       "kind": "guide",
-      "summary": "Standalone illustrated first-time-user guidance or image provenance."
+      "summary": "Concise branch and PR guidance distinguishes policy-permitted educational self-merge in 01/05 from protected live independent approval."
     },
     {
       "id": "docs/copilot-guide.md",
@@ -86,7 +86,7 @@
     {
       "id": "full-ws-content/README.md",
       "kind": "guide",
-      "summary": "Full workshop review index, own-copy Exercise UX and read-only source preview."
+      "summary": "Concise review index preserves original A/B offline completion and separates monitoring authoring contracts from OAuth, alert delivery and new live proof."
     },
     {
       "id": "full-ws-content/00-start-here.md",
@@ -140,7 +140,109 @@
       "id": "docs/daily work report/2026-09-15.md",
       "kind": "report",
       "date": "2026-09-15",
-      "summary": "Attendee-owned setup and mandatory cleanup for approved live handover preserve independent offline completion and one private Lab 07 state writer."
+      "summary": "Same-day setup/cleanup history plus concise monitoring follow-up records 35 Node passes and two contracts; commit-bound publication tracked separately with no new OAuth, routing or live execution."
+    },
+    {
+      "id": "docs/glossary.md",
+      "kind": "guide",
+      "date": "2026-09-15",
+      "summary": "Concise operations terminology distinguishes recovery, compatibility, SAMPLE routing, real event evidence and protected workload ownership."
+    },
+    {
+      "id": ".github/steps/01.md",
+      "kind": "guide",
+      "date": "2026-09-15",
+      "summary": "Concise independent offline lesson diagnoses the supplied sanitized OIDC incident."
+    },
+    {
+      "id": ".github/steps/02.md",
+      "kind": "guide",
+      "date": "2026-09-15",
+      "summary": "Concise safe-recovery lesson documents decisions without bypassing approval or altering live state."
+    },
+    {
+      "id": ".github/steps/03.md",
+      "kind": "guide",
+      "date": "2026-09-15",
+      "summary": "Concise additive upgrade lesson preserves app/prefix compatibility and original offline validation."
+    },
+    {
+      "id": ".github/steps/04.md",
+      "kind": "guide",
+      "date": "2026-09-15",
+      "summary": "Concise offline handover keeps optional reviewed release/live follow-up and full cleanup with the original approved Lab 07 writer."
+    },
+    {
+      "id": "docs/monitor-feedback-hands-on.md",
+      "kind": "guide",
+      "date": "2026-09-15",
+      "summary": "Monitor-to-Logic-Apps feedback guide requires owner consent, protected callback state, separate SAMPLE/real-event evidence, Git fixes and full cleanup."
+    },
+    {
+      "id": "full-ws-content/monitor-feedback-hands-on.md",
+      "kind": "guide",
+      "date": "2026-09-15",
+      "summary": "Full monitoring feedback mirror retains separate-root ownership and never treats SAMPLE issues or offline contracts as live detection or Exercise completion."
+    },
+    {
+      "id": "monitoring/README.md",
+      "kind": "guide",
+      "date": "2026-09-15",
+      "summary": "Isolated monitoring profile explains AVM connection/workflow plus native Monitor resources, two offline contracts and separately gated complete destroy-plan/apply/state commands; authoring tests are not live routing or cleanup proof."
+    },
+    {
+      "id": "monitoring/terraform.tf",
+      "kind": "config",
+      "date": "2026-09-15",
+      "summary": "Terraform 1.16.1 pins AzureRM 4.81.0, AzAPI 2.12.0, ModTM 0.3.5 and Random 3.9.1 separately from baseline AzureRM 5.4.0."
+    },
+    {
+      "id": "monitoring/variables.tf",
+      "kind": "config",
+      "date": "2026-09-15",
+      "summary": "Attendee scope, disposable profile name, authorized private repository and exact separately owned VNet inputs bound monitoring ownership."
+    },
+    {
+      "id": "monitoring/main.tf",
+      "kind": "code",
+      "date": "2026-09-15",
+      "summary": "AVM web connection 0.1.0 and Logic workflow 0.1.2 combine with a protected callback read and native AzureRM action group/exact-VNet alert without owning RG/VNet."
+    },
+    {
+      "id": "monitoring/workflow.json",
+      "kind": "code",
+      "date": "2026-09-15",
+      "summary": "Common Alert HTTPS workflow creates a static SAMPLE GitHub issue with secure inputs/outputs and no raw alert payload or embedded OAuth token."
+    },
+    {
+      "id": "monitoring/tests/contract.tftest.hcl",
+      "kind": "test",
+      "date": "2026-09-15",
+      "summary": "Two mocked plan contracts validate the scoped monitoring configuration and wrong-resource-group VNet rejection, not actual routing."
+    },
+    {
+      "id": "monitoring/.terraform.lock.hcl",
+      "kind": "config",
+      "date": "2026-09-15",
+      "summary": "Isolated monitoring provider lock includes Windows/Linux hashes and preserves the incompatible original baseline lock."
+    },
+    {
+      "id": "scripts/check-companion.mjs",
+      "kind": "code",
+      "date": "2026-09-15",
+      "summary": "Credential-stripped monitoring checker requires formatting, backend-disabled readonly init, schema validation and exactly two passed mocked cases with no errors or skips."
+    },
+    {
+      "id": ".github/workflows/companion-checks.yml",
+      "kind": "config",
+      "date": "2026-09-15",
+      "summary": "Separate unprivileged Node/Terraform companion CI uses read-only repository permissions and no Azure/OIDC/state access."
+    },
+    {
+      "id": "package.json",
+      "kind": "config",
+      "date": "2026-09-15",
+      "summary": "Package companion:check invokes the isolated monitoring authoring checker without changing original capstone grading."
     }
   ],
   "edges": [
@@ -245,6 +347,126 @@
       "to": "docs/daily work report/2026-09-15.md",
       "rel": "maintenance-report",
       "date": "2026-09-15"
+    },
+    {
+      "from": "docs/start-here.md",
+      "to": "docs/glossary.md",
+      "rel": "terminology"
+    },
+    {
+      "from": ".github/agentalvine/course.json",
+      "to": ".github/steps/01.md",
+      "rel": "lesson"
+    },
+    {
+      "from": ".github/agentalvine/course.json",
+      "to": ".github/steps/02.md",
+      "rel": "lesson"
+    },
+    {
+      "from": ".github/agentalvine/course.json",
+      "to": ".github/steps/03.md",
+      "rel": "lesson"
+    },
+    {
+      "from": ".github/agentalvine/course.json",
+      "to": ".github/steps/04.md",
+      "rel": "lesson"
+    },
+    {
+      "from": "full-ws-content/activity-01.md",
+      "to": ".github/steps/01.md",
+      "rel": "mirrors"
+    },
+    {
+      "from": "full-ws-content/activity-02.md",
+      "to": ".github/steps/02.md",
+      "rel": "mirrors"
+    },
+    {
+      "from": "full-ws-content/activity-03.md",
+      "to": ".github/steps/03.md",
+      "rel": "mirrors"
+    },
+    {
+      "from": "full-ws-content/activity-04.md",
+      "to": ".github/steps/04.md",
+      "rel": "mirrors"
+    },
+    {
+      "from": "README.md",
+      "to": "docs/monitor-feedback-hands-on.md",
+      "rel": "companion-guide"
+    },
+    {
+      "from": "full-ws-content/README.md",
+      "to": "full-ws-content/monitor-feedback-hands-on.md",
+      "rel": "companion-guide"
+    },
+    {
+      "from": "full-ws-content/monitor-feedback-hands-on.md",
+      "to": "docs/monitor-feedback-hands-on.md",
+      "rel": "mirrors"
+    },
+    {
+      "from": "docs/monitor-feedback-hands-on.md",
+      "to": "monitoring/README.md",
+      "rel": "profile-guide"
+    },
+    {
+      "from": "monitoring/README.md",
+      "to": "monitoring/terraform.tf",
+      "rel": "explains"
+    },
+    {
+      "from": "monitoring/README.md",
+      "to": "monitoring/variables.tf",
+      "rel": "explains"
+    },
+    {
+      "from": "monitoring/README.md",
+      "to": "monitoring/main.tf",
+      "rel": "explains"
+    },
+    {
+      "from": "monitoring/main.tf",
+      "to": "monitoring/workflow.json",
+      "rel": "loads-workflow"
+    },
+    {
+      "from": "monitoring/terraform.tf",
+      "to": "monitoring/.terraform.lock.hcl",
+      "rel": "locked-by"
+    },
+    {
+      "from": "monitoring/tests/contract.tftest.hcl",
+      "to": "monitoring/main.tf",
+      "rel": "tests"
+    },
+    {
+      "from": "monitoring/tests/contract.tftest.hcl",
+      "to": "monitoring/variables.tf",
+      "rel": "tests"
+    },
+    {
+      "from": "scripts/check-companion.mjs",
+      "to": "monitoring/tests/contract.tftest.hcl",
+      "rel": "validates-contracts"
+    },
+    {
+      "from": ".github/workflows/companion-checks.yml",
+      "to": "scripts/check-companion.mjs",
+      "rel": "runs-unprivileged"
+    },
+    {
+      "from": "package.json",
+      "to": "scripts/check-companion.mjs",
+      "rel": "companion-check"
+    },
+    {
+      "from": "docs/daily work report/2026-09-15.md",
+      "to": "docs/monitor-feedback-hands-on.md",
+      "rel": "records-companion-scope"
     }
   ],
   "hotspots": [

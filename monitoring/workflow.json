@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "$connections": { "type": "Object", "defaultValue": {} },
+    "github_owner": { "type": "String" },
+    "github_repository": { "type": "String" }
+  },
+  "triggers": {
+    "manual": {
+      "type": "Request",
+      "kind": "Http",
+      "inputs": {
+        "method": "POST",
+        "schema": {
+          "type": "object",
+          "required": ["schemaId", "data"],
+          "properties": {
+            "schemaId": { "type": "string" },
+            "data": { "type": "object" }
+          }
+        }
+      },
+      "runtimeConfiguration": {
+        "secureData": { "properties": ["inputs", "outputs"] }
+      }
+    }
+  },
+  "actions": {
+    "Create_issue": {
+      "type": "ApiConnection",
+      "runAfter": {},
+      "inputs": {
+        "host": { "connection": { "name": "@parameters('$connections')['github']['connectionId']" } },
+        "method": "post",
+        "path": "/repos/@{encodeURIComponent(parameters('github_owner'))}/@{encodeURIComponent(parameters('github_repository'))}/issues",
+        "body": {
+          "title": "Sample WS2 monitoring alert",
+          "body": "SAMPLE routing exercise. Review the Logic App run and Azure Monitor event privately. This is not a confirmed security incident; no raw resource identifiers or alert payload were copied."
+        }
+      },
+      "runtimeConfiguration": {
+        "secureData": { "properties": ["inputs", "outputs"] }
+      }
+    }
+  },
+  "outputs": {}
+}
